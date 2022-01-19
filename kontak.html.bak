@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> widya rpl </title>
+<meta charset="UTF-8">
+ </head>
+ <body>
+ 
+ <!-- menu website -->
+ <div>
+   <a href="../coding.html">Home</a>
+   <a href="kontak.html">&nbsp;&nbsp;Kontak</a>
+ </div>
+  
+ <!-- perkenalan sekolah -->
+  <div>
+   <h1> saya sekolah di smkn 1 bangil </h1>
+   <h2> saya sekolah di <span> smkn </span> 1 bangil </h2>
+  </div>
+
+<!-- membuat form -->
+ <form>
+  <label for="nama_user">Nama</label>
+  <input type="text" placeholder="Nama User" value="Nama Anda" id="nama_user">
+  <br>
+  <label for="pesan_user">Pesan</label>
+  <textarea cols="100" rows="7" id="pesan_user"> Pesan saya adalah....</textarea>
+ <br>
+  <label> Hobi</label> <br>
+  <input type="checkbox" name="hobi" value="1"> Menggambar
+  <input type="checkbox" name="hobi" value="2"> Menulis
+  <input type="checkbox" name="hobi" value="3"> Menyanyi
+  <br>
+  <label>Jenis Kelamin</label><br>
+  <input type="radio" name="gender" value="1"> Laki-Laki
+  <input type="radio" name="gender" value="2"> Perempuan
+  <br>
+  <label>Hewan</label>
+  <select>
+   <optgroup label="Hidup di Darat">
+   <option value="Ayam">Ayam</option>
+   <option value="Bebek">Bebek</option>
+  </optgroup>
+  
+   <optgroup label="Hidup di Air">
+   <option value="IM">Ikan Mas</option>
+   <option value="LL">Lumba-Lumba</option>
+  </optgroup>
+  </select>
+
+<br>
+  <input type="Submit"value="Kirim Data">
+ </form>
+
+ <br><br>
+  <table border="1">
+   <caption>Daftar Murid Sekolah Coding</caption>
+   <tr>
+    <th>Nama Murid</th>
+	<th>Kota Asal</th>
+   </tr>
+   <tr>
+    <td>Hilman</td>
+	<td>Makassar</td>
+   </tr>
+   </table>
+ </div>
+
+ <div>
+  <ul>
+   <li>Hilman</li>
+   <li>Makassar</li>
+  </ul>
+  <ol>
+   <li>Hilman</li>
+   <li>Makassar</li>
+  </ol>
+  <dl>
+   <li>Hilman</li>
+   <dd>User pertama sekolah coding</dd>
+  </dl>
+ </div>
+ 
+ &#169; data web
+ </body>
+</html>

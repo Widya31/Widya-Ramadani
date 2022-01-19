@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> widya rpl </title>
+ </head>
+ <body>
+ 
+ <!-- menu website -->
+ <div>
+   <a href="coding.html">Home</a>
+   <a href="New folder/kontak.html">Kontak</a>
+ </div>
+ 
+ <!-- perkenalan sekolah -->
+  <div>
+   <h1> saya sekolah di smkn 1 bangil </h1>
+   <h2> saya sekolah di <span> smkn </span> 1 bangil </h2>
+  </div>
+
+<!-- konten web -->
+  <div>
+    <p> hehhe maaci guys </p>
+    <a href="https://facebook.com"> facebook </a> <br>
+    <a href="https://twitter.com" target=_blank> twitter </a> <br>
+    <img src= "PANCASILA.png.jpg" alt="bhineka tunggal ika" height="100" width="100"
+  </div>
+
+<!-- mengubah format text -->
+  <div>
+   <iframe scr="https://batikair.com/en/" height="500" width="500"></iframe>
+   <p>Kita <em>belajar </em>menformat <i>text </i>pada <b>html </b></p>
+  </div>
+
+ </body>
+</html>
